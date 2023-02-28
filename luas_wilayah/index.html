@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hitung luas wilayah</title>
+    <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.28.0/mapbox-gl.css" />
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v0.16.0/mapbox-gl-draw.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <div id="map"></div>
+    <div class="calculation-box">
+      <p>Gambar garis di peta menggunakan tools polygon di pojok kanan atas.</p>
+      <div id="calculate" class="button button">Hitung luas area</div>
+      <div id="calculated-area"></div>
+    </div>
+    <!-- partial -->
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.28.0/mapbox-gl.js"></script>
+    <script src="https://api.tiles.mapbox.com/mapbox.js/plugins/turf/v3.0.11/turf.min.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v0.16.0/mapbox-gl-draw.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
